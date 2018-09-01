@@ -76,4 +76,26 @@ $(document).ready(function() {
         }
     });  
     
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 23.7470261,
+        lng: 90.381,
+        zoom: 16
+    });
+    
+    map.addMarker({
+        lat: 23.7470261,
+        lng: 90.3737121,
+        title: 'FoodHub',
+        infoWindow: {
+            content: '<p>Our Dhanmondi HQ</p>'
+        }
+    });
+    
+    
+    
+    
+    
+    
 });

@@ -43,7 +43,7 @@
     
     .plan-price { font-size: 250%; }
     
-    .contact-form { width: 80%; }
+    .contact-form { width: 90%; }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -114,6 +114,25 @@
     .works-step { margin-bottom: 20px; }
     
     .works-step:last-of-type { margin-bottom: 20px; }
+    
+    .map-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 30px 0;
+    }
 }
 
 /* Small phones: from 0 to 480px */
